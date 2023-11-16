@@ -1,0 +1,179 @@
+body {
+  font-family: "Kay Pho Du", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  padding: 0 0 10px;
+}
+.header h1 {
+  margin: 0 0 5px;
+
+}
+.header h1 span {
+  font-size: 45px;
+  color: rgb(146, 34, 34);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 21);
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 0;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px 10px;
+}
+
+.navbar a:hover {
+  background-color: #c0c0c0;
+}
+
+.paginaprincipal {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.pagina {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagina h2 {
+  color: #333;
+  font-size: 2em;
+  text-align: center;
+}
+
+.pagina p {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.about img {
+  height: 10em;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.formacao__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.image-container {
+  margin-bottom: 10px;
+}
+#portfolio {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+#portfolio h2 {
+  grid-column: span 3;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+#portfolio h2 {
+  grid-column: span 3;
+}
+
+#portfolio ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  grid-column: span 3;
+}
+
+#portfolio li {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  gap: 10px;
+}
+
+#portfolio li img {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto; 
+  display: block; 
+}
+
+#portfolio li h3 {
+  font-size: 1.5em;
+}
+
+#portfolio li p {
+  font-size: 20px;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.footer {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 10px;
+}

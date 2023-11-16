@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kay+Pho+Du&display=swap" rel="stylesheet">
+
+
+  <title>Lucas Pacienza</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Lucas <span>Pacienza</span> </h1>
+
+    <div class="navbar">
+      <a href="#index.html">Homepage</a>
+      <a href="#sobremim">Sobre Mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+
+
+  <div class="paginaprincipal">
+    <div class="pagina" id="sobremim">
+      <h2>Sobre Mim</h2>
+      <div class="about">
+        <img src="./src/img/profile.jpg" alt="Eu" align="left">
+      </div>
+      <p>Atualmente com 23 anos, enquanto Músico toco Piano/Teclado, Bateria e Violão. Predileção musical por sons
+        intensos como Black Metal e ruidosos como Shoegaze.
+        <br>
+        Enquanto Jogador, a predileção fala alto quando o assunto é RPG de mesa, principalmente sistemas como Vampiro: a
+        Máscara e Dungeons & Dragons.
+        <br>
+        Enquanto pessoa, sou Criativo, Hábil e Proativo.
+      </p>
+    </div>
+    <div class="pagina" id="formacao">
+      <ul>
+        <li class="formacao__item">
+          <div class="image-container">
+            <img src="./src/img/photoshop_icon.png" alt="Photoshop" />
+          </div>
+          <h3>Adobe Photoshop</h3>
+          <p>
+            Curso de Adobe Photoshop pela Prepara Cursos Profissionalizantes.
+          </p>
+        </li>
+        <li class="formacao__item">
+          <div class="image-container">
+            <img src="./src/img/software-development-icon-vector.jpg" alt="" />
+          </div>
+          <h3>Análise E Desenvolvimento De Sistemas</h3>
+          <p>
+            Técnologo em Análise E Desenvolvimento De Sistemas pela Uninter.[Em andamento]
+          </p>
+        </li>
+        <li class="formacao__item">
+          <div class="image-container">
+            <img src="./src/img/python.png" alt="Python" />
+          </div>
+          <h3>Python</h3>
+          <p>
+            Curso Python Essencials pela Cisco/Python Foundation
+          </p>
+        </li>
+        <li class="formacao__item">
+          <div class="image-container">
+            <img src="./src/img/hacker.png" alt="Hacking" />
+          </div>
+          <h3>Hacker Ético</h3>
+          <p>
+            Vários cursos na área da cibersegurança, atualmente cursando a certificação de Pentester SYCP pela Solyd
+            Offensive Security.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="pagina" id="portfolio">
+    <h2>Portfólio</h2>
+    <ul>
+      <li>
+        <img src="./src/img/ophelia.png" alt="Ophelia Logotipo">
+        <h3>Ophelia Live Chat</h3>
+        <p>Sala de Bate-Papo em tempo real feita usando Python e Javascript</p>
+        <a href="https://github.com/Pacienza/Ophelia-Live-Chat">Download</a>
+      </li>
+      <li>
+        <img src="./src/img/the_camarilla_by_isillysarah_daziheu-fullview.jpg" alt="camarilla logo">
+        <h3>Camarilla VtM</h3>
+        <p>Site interativo que exibe os clãs da seita Camarilla no jogo Vampiro: a Máscara
+        <a href="https://pacienza.github.io/CamarillaClansVTM/" target="_blank">Veja Aqui</a>
+        </p>
+      </li>
+      <li>
+        <img src="./src/img/3696901.png" alt="todolist icon">
+        <h3>ToDo List</h3>
+        <p>Aplicação Back-End em Java(usando Springboot) para gerenciar uma lista de tarefas</p>
+        <a href="https://github.com/Pacienza/ToDoList">Download</a>
+      </li>
+    </ul>
+
+  </div>
+  <div class="pagina" id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato comigo preenchendo o formulário abaixo:</p>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+  </div>
+
+  <div class="footer">
+    <p>Website criado para a disciplina Fundamentos de Desenvolvimento Web por Lucas Pacienza - RU 2594616 .</p>
+  </div>
+
+</body>
+
+</html>
